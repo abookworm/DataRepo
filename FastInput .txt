@@ -1,0 +1,78 @@
+; This is for the Source Files of object C --- OK
+::#1::
+(
+`#define _CRT_SECURE_NO_WARNINGS
+`#include <stdio.h>
+`#include <stdlib.h>
+`#include <string.h>
+
+
+int main()
+{
+    
+    system("pause");
+    return EXIT_SUCCESS;
+}
+)
+
+; This is for the Header Files of object C --- OK
+::#2::
+(
+#pragma once
+
+`#define _CRT_SECURE_NO_WARNINGS
+`#include <stdio.h>
+`#include <stdlib.h>
+`#include <string.h>
+
+#ifdef __cplusplus
+extern "C"{
+#endif // __cplusplus
+
+
+
+#ifdef __cplusplus
+}
+#endif // __cplusplus
+)
+
+
+; This is for the header files of Cplusplus --- OK
+::#3::
+(
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    
+    system("pause");
+    return EXIT_SUCCESS;
+}
+)
+
+::#4::
+(
+/*
+Author  : Aaron Long
+Date    : 
+Function: 
+
+*/
+)
+
+; This is for the work schedule with the time --- ok
+::#a::
+send, aTags: %A_YYYY%-%A_MM%-%A_DD% `naNote: Pls. continue from here.
+return
+
+; This is for archiving with the time --- ok
+::#t::
+send, %A_YYYY%%A_MM%%A_DD% 
+return
+
+
+; This is to run the dictionary of Golden
+!d::run "C:\AarPrograms\GoldenDict\GoldenDict.exe"
