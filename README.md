@@ -11,3 +11,5 @@ Pls. do ignore this repo and here is only as a transfer station to my working pc
 2. Input methods dict for HX shuangpin input methods.
 
 3. Notepad++ 32bit inplugs of viSimulator.
+
+4. Add MS offline build tools since office network is not available.
